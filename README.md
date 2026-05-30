@@ -1,12 +1,23 @@
 # OpenXfer — an open transfer standard for portable e-invoicing data
 
+[![Status](https://img.shields.io/badge/status-v0.1--draft-orange)](https://openxfer.org)
+[![Licence (funded)](https://img.shields.io/badge/licence-Apache--2.0-lightgrey)](https://www.apache.org/licenses/LICENSE-2.0)
+[![EU ViDA](https://img.shields.io/badge/EU-ViDA_aligned-blue)](https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en)
+[![Website](https://img.shields.io/badge/website-openxfer.org-2980b9)](https://openxfer.org)
+[![Stars](https://img.shields.io/github/stars/OpenXfer/OpenXfer?style=social)](https://github.com/OpenXfer/OpenXfer)
+
 An open standard for moving e-invoice archives, statuses and tax-authority receipts between intermediaries without losing anything.
+
+**Links:**
+- 🌐 Website · [openxfer.org](https://openxfer.org)
+- 💬 Discussions · [github.com/OpenXfer/OpenXfer/discussions](https://github.com/OpenXfer/OpenXfer/discussions)
+- 🐛 Issues · [github.com/OpenXfer/OpenXfer/issues](https://github.com/OpenXfer/OpenXfer/issues)
+- 📖 Background · [BACKGROUND.md](./BACKGROUND.md)
+- 🤖 GenAI policy · [GENAI.md](./GENAI.md)
 
 > **Status:** v0.1-draft · pre-funding landing repository
 > **Steward:** Winpis j.d.o.o. (Croatia) — the company that authored and maintains the standard.
 > **Licence:** © 2026 Winpis j.d.o.o., all rights reserved. Funded work will be released under the Apache License 2.0 as milestones are completed. See [LICENSE](./LICENSE).
-> **Background:** [BACKGROUND.md](./BACKGROUND.md).
-> **AI use:** [GENAI.md](./GENAI.md).
 
 ## The problem
 

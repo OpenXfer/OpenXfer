@@ -421,14 +421,14 @@
       });
       wrapper.appendChild(btn);
 
-      // Add "Kako čitati?" link for XML blocks
+      // Add "How to read?" link for XML blocks
       var text = code.textContent;
       if (text.indexOf('<cbc:') !== -1 || text.indexOf('<cac:') !== -1 || text.indexOf('<ext:') !== -1 || text.indexOf('CreditNote') !== -1) {
         var help = document.createElement('a');
         help.classList.add('code-xml-help');
         help.href = '#kako-citati-xml';
-        help.textContent = 'Kako čitati XML?';
-        help.title = 'Objašnjenje boja i komentara u XML kodu';
+        help.textContent = 'How to read XML?';
+        help.title = 'Explanation of colours and comments in XML code';
         wrapper.appendChild(help);
       }
     });
@@ -445,11 +445,11 @@
     var text = content.textContent || '';
     var words = text.trim().split(/\s+/).length;
     var minutes = Math.ceil(words / 200);
-    readingEl.textContent = 'Čitanje: ~' + minutes + ' min';
+    readingEl.textContent = '~' + minutes + ' min read';
 
     // Last updated from git (via page build date)
     if (updatedEl) {
-      updatedEl.textContent = 'Zadnja izmjena: {{ site.time | date: "%d.%m.%Y." }}';
+      updatedEl.textContent = 'Last updated: {{ site.time | date: "%d %b %Y" }}';
     }
   })();
 
