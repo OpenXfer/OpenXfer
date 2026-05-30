@@ -1,0 +1,22 @@
+title: "OpenXfer — an open transfer standard for portable e-invoicing data"
+description: "OpenXfer is an open standard for moving e-invoice archives, statuses and tax-authority receipts between intermediaries without losing anything. Authored and maintained by Winpis j.d.o.o."
+url: "https://openxfer.org"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Repo settings used by layout
+github_repo: "OpenXfer/OpenXfer"
+github_org: "OpenXfer"
+
+# Exclude these from the generated site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
