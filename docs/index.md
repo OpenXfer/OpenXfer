@@ -11,7 +11,7 @@ description: "Open standard for portable e-invoicing data between intermediaries
 OpenXfer moves an e-invoice together with all the metadata that travels with it — document identifiers, statuses, signed tax-authority receipts, rejection reasons, timeline of events, vendor-specific extensions — from one intermediary to another, automatically and without manual download-and-upload workarounds.
 
 > **Status:** v0.1-draft · pre-funding landing site
-> **Steward:** [Winpis j.d.o.o.](https://www.winpis.hr) (Croatia)
+> **Steward:** [Winpis j.d.o.o.](https://www.winpis.com) (Croatia)
 > **Licence:** Funded deliverables will be released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 > **Source:** [github.com/OpenXfer/OpenXfer](https://github.com/OpenXfer/OpenXfer)
 
